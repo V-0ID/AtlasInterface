@@ -381,7 +381,6 @@ Converted["_InterfaceMenu"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_InterfaceMenu"].BackgroundTransparency = 0.6499999761581421
 Converted["_InterfaceMenu"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_InterfaceMenu"].Size = UDim2.new(1, 0, 1, 0)
-Converted["_InterfaceMenu"].Visible = false
 Converted["_InterfaceMenu"].Name = "InterfaceMenu"
 Converted["_InterfaceMenu"].Parent = Converted["_ATLASINTERFACE"]
 
@@ -1228,7 +1227,6 @@ Converted["_4servers1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_4servers1"].BackgroundTransparency = 1
 Converted["_4servers1"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_4servers1"].Size = UDim2.new(1, 0, 1, 0)
-Converted["_4servers1"].Visible = false
 Converted["_4servers1"].Name = "4servers"
 Converted["_4servers1"].Parent = Converted["_PageContainer"]
 
@@ -1250,9 +1248,10 @@ Converted["_ServerContaner"].CanvasSize = UDim2.new(0, 0, 0, 0)
 Converted["_ServerContaner"].ScrollBarThickness = 1
 Converted["_ServerContaner"].ScrollingDirection = Enum.ScrollingDirection.Y
 Converted["_ServerContaner"].Active = true
+Converted["_ServerContaner"].AnchorPoint = Vector2.new(0.5, 0.5)
 Converted["_ServerContaner"].BackgroundColor3 = Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)
 Converted["_ServerContaner"].BorderSizePixel = 0
-Converted["_ServerContaner"].Position = UDim2.new(0.00605449034, 0, 0.0488322712, 0)
+Converted["_ServerContaner"].Position = UDim2.new(0.5, 0, 0.518000007, 0)
 Converted["_ServerContaner"].Size = UDim2.new(0, 1970, 0, 896)
 Converted["_ServerContaner"].Name = "ServerContaner"
 Converted["_ServerContaner"].Parent = Converted["_ServerFinder"]
@@ -2295,7 +2294,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function DRLHI_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.Welcome.WelcomeHandler
+local function YLPRNYY_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.Welcome.WelcomeHandler
     local script = Instance.new("LocalScript")
     script.Name = "WelcomeHandler"
     script.Parent = Converted["_Welcome"]
@@ -2321,7 +2320,7 @@ local function DRLHI_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASIN
 	task.wait(3.5)
 	script.Parent:Destroy()
 end
-local function XNGQGCJ_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.InterfaceController
+local function VJPVH_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.InterfaceController
     local script = Instance.new("LocalScript")
     script.Name = "InterfaceController"
     script.Parent = Converted["_ATLASINTERFACE"]
@@ -2946,5 +2945,5 @@ local function XNGQGCJ_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLAS
 	Interface.CreateSmallNotif('The kebind to open the menu is <font color="rgb('..Interface.Colours.Green..')">[HOME]</font>.')
 end
 
-coroutine.wrap(DRLHI_fake_script)()
-coroutine.wrap(XNGQGCJ_fake_script)()
+coroutine.wrap(YLPRNYY_fake_script)()
+coroutine.wrap(VJPVH_fake_script)()
