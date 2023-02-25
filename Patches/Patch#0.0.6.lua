@@ -381,6 +381,7 @@ Converted["_InterfaceMenu"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_InterfaceMenu"].BackgroundTransparency = 0.6499999761581421
 Converted["_InterfaceMenu"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_InterfaceMenu"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_InterfaceMenu"].Visible = false
 Converted["_InterfaceMenu"].Name = "InterfaceMenu"
 Converted["_InterfaceMenu"].Parent = Converted["_ATLASINTERFACE"]
 
@@ -505,6 +506,7 @@ Converted["_1home1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_1home1"].BackgroundTransparency = 1
 Converted["_1home1"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_1home1"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_1home1"].Visible = false
 Converted["_1home1"].Name = "1home"
 Converted["_1home1"].Parent = Converted["_PageContainer"]
 
@@ -1227,6 +1229,7 @@ Converted["_4servers1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_4servers1"].BackgroundTransparency = 1
 Converted["_4servers1"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_4servers1"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_4servers1"].Visible = false
 Converted["_4servers1"].Name = "4servers"
 Converted["_4servers1"].Parent = Converted["_PageContainer"]
 
@@ -2294,7 +2297,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function YLPRNYY_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.Welcome.WelcomeHandler
+local function JZHIVU_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.Welcome.WelcomeHandler
     local script = Instance.new("LocalScript")
     script.Name = "WelcomeHandler"
     script.Parent = Converted["_Welcome"]
@@ -2320,7 +2323,7 @@ local function YLPRNYY_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLAS
 	task.wait(3.5)
 	script.Parent:Destroy()
 end
-local function VJPVH_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.InterfaceController
+local function TKQL_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.InterfaceController
     local script = Instance.new("LocalScript")
     script.Name = "InterfaceController"
     script.Parent = Converted["_ATLASINTERFACE"]
@@ -2945,5 +2948,5 @@ local function VJPVH_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASIN
 	Interface.CreateSmallNotif('The kebind to open the menu is <font color="rgb('..Interface.Colours.Green..')">[HOME]</font>.')
 end
 
-coroutine.wrap(YLPRNYY_fake_script)()
-coroutine.wrap(VJPVH_fake_script)()
+coroutine.wrap(JZHIVU_fake_script)()
+coroutine.wrap(TKQL_fake_script)()
