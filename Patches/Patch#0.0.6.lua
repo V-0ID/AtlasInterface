@@ -381,7 +381,6 @@ Converted["_InterfaceMenu"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_InterfaceMenu"].BackgroundTransparency = 0.6499999761581421
 Converted["_InterfaceMenu"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_InterfaceMenu"].Size = UDim2.new(1, 0, 1, 0)
-Converted["_InterfaceMenu"].Visible = false
 Converted["_InterfaceMenu"].Name = "InterfaceMenu"
 Converted["_InterfaceMenu"].Parent = Converted["_ATLASINTERFACE"]
 
@@ -625,17 +624,17 @@ Converted["_Summary"].Font = Enum.Font.Unknown
 Converted["_Summary"].RichText = true
 Converted["_Summary"].Text = "<b>Sumary:</b> This patch finishes 90% of the server list page and adds some needed features on the interface, for example, this changelog menu and some other menus you can see on the home page. Patch 4 and 5 weren't public due to many bugs included in those version."
 Converted["_Summary"].TextColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_Summary"].TextScaled = true
 Converted["_Summary"].TextSize = 14
 Converted["_Summary"].TextStrokeColor3 = Color3.fromRGB(255, 115.00000074505806, 241.00000083446503)
 Converted["_Summary"].TextStrokeTransparency = 0.9300000071525574
 Converted["_Summary"].TextWrapped = true
 Converted["_Summary"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_Summary"].TextYAlignment = Enum.TextYAlignment.Top
-Converted["_Summary"].AutomaticSize = Enum.AutomaticSize.Y
 Converted["_Summary"].BackgroundColor3 = Color3.fromRGB(255, 115.00000074505806, 241.00000083446503)
 Converted["_Summary"].BackgroundTransparency = 0.8999999761581421
-Converted["_Summary"].Position = UDim2.new(0, 5, 0, 36)
-Converted["_Summary"].Size = UDim2.new(0, 560, 0, 63)
+Converted["_Summary"].Position = UDim2.new(0.00862068962, 0, 0.116129033, 0)
+Converted["_Summary"].Size = UDim2.new(0.965517223, 0, 0.225806445, 0)
 Converted["_Summary"].Name = "Summary"
 Converted["_Summary"].Parent = Converted["_Patch006"]
 
@@ -832,17 +831,17 @@ Converted["_Summary1"].Font = Enum.Font.Unknown
 Converted["_Summary1"].RichText = true
 Converted["_Summary1"].Text = "<b>Sumary:</b> Adds the ui to the settings page. The settings are only a placeholder and will change later to match the rest of the ui. Most of the groundwork for the settings were created though it was not done correctly and will have to be redone later."
 Converted["_Summary1"].TextColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_Summary1"].TextScaled = true
 Converted["_Summary1"].TextSize = 14
 Converted["_Summary1"].TextStrokeColor3 = Color3.fromRGB(255, 115.00000074505806, 241.00000083446503)
 Converted["_Summary1"].TextStrokeTransparency = 0.9300000071525574
 Converted["_Summary1"].TextWrapped = true
 Converted["_Summary1"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_Summary1"].TextYAlignment = Enum.TextYAlignment.Top
-Converted["_Summary1"].AutomaticSize = Enum.AutomaticSize.Y
 Converted["_Summary1"].BackgroundColor3 = Color3.fromRGB(255, 115.00000074505806, 241.00000083446503)
 Converted["_Summary1"].BackgroundTransparency = 0.8999999761581421
-Converted["_Summary1"].Position = UDim2.new(0, 5, 0, 36)
-Converted["_Summary1"].Size = UDim2.new(0, 560, 0, 63)
+Converted["_Summary1"].Position = UDim2.new(0.00862068962, 0, 0.116129033, 0)
+Converted["_Summary1"].Size = UDim2.new(0.965517223, 0, 0.225806445, 0)
 Converted["_Summary1"].Name = "Summary"
 Converted["_Summary1"].Parent = Converted["_Patch003"]
 
@@ -1039,17 +1038,17 @@ Converted["_Summary2"].Font = Enum.Font.Unknown
 Converted["_Summary2"].RichText = true
 Converted["_Summary2"].Text = "<b>Sumary:</b>  Interface menu was added along with the framework for switching pages. The ui for the topbar will most likely change later to be more visually appealing alsong with some more functionality."
 Converted["_Summary2"].TextColor3 = Color3.fromRGB(150.0000062584877, 150.0000062584877, 150.0000062584877)
+Converted["_Summary2"].TextScaled = true
 Converted["_Summary2"].TextSize = 14
 Converted["_Summary2"].TextStrokeColor3 = Color3.fromRGB(255, 115.00000074505806, 241.00000083446503)
 Converted["_Summary2"].TextStrokeTransparency = 0.9300000071525574
 Converted["_Summary2"].TextWrapped = true
 Converted["_Summary2"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_Summary2"].TextYAlignment = Enum.TextYAlignment.Top
-Converted["_Summary2"].AutomaticSize = Enum.AutomaticSize.Y
 Converted["_Summary2"].BackgroundColor3 = Color3.fromRGB(255, 115.00000074505806, 241.00000083446503)
 Converted["_Summary2"].BackgroundTransparency = 0.8999999761581421
-Converted["_Summary2"].Position = UDim2.new(0, 5, 0, 36)
-Converted["_Summary2"].Size = UDim2.new(0, 560, 0, 63)
+Converted["_Summary2"].Position = UDim2.new(0.00862068962, 0, 0.116129033, 0)
+Converted["_Summary2"].Size = UDim2.new(0.965517223, 0, 0.225806445, 0)
 Converted["_Summary2"].Name = "Summary"
 Converted["_Summary2"].Parent = Converted["_Patch002"]
 
@@ -2295,7 +2294,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function STHNDRJ_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.Welcome.WelcomeHandler
+local function PCEB_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.Welcome.WelcomeHandler
     local script = Instance.new("LocalScript")
     script.Name = "WelcomeHandler"
     script.Parent = Converted["_Welcome"]
@@ -2321,7 +2320,7 @@ local function STHNDRJ_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLAS
 	task.wait(3.5)
 	script.Parent:Destroy()
 end
-local function WNQTGLC_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.InterfaceController
+local function KFGCZR_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.InterfaceController
     local script = Instance.new("LocalScript")
     script.Name = "InterfaceController"
     script.Parent = Converted["_ATLASINTERFACE"]
@@ -2356,7 +2355,7 @@ local function WNQTGLC_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLAS
 	
 		SearchOptions = {
 			ExcludeFullServers = true;
-			SortOrder = 3 -- 2 = high 1 = low
+			SortOrder = 2 -- 2 = high 1 = low
 		}
 	}
 	
@@ -2495,7 +2494,7 @@ local function WNQTGLC_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLAS
 	
 	--/Setup Btn Logic
 	Interface.SearchOptions.UpdateSearchFilters = function()
-		local SortOrderSearch, EFSSearch
+		local SortOrderSearch, EFSSearch = "Highest Population", "Exclude Full Server"
 		if Interface.SearchOptions.SortOrder == 2 then
 			SortOrderSearch = "Highest Population"
 		elseif Interface.SearchOptions.SortOrder == 1 then
@@ -2507,7 +2506,6 @@ local function WNQTGLC_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLAS
 			EFSSearch = ""
 		end
 		Interface.ServersMenu.ServerFinder.OptionList.SortBy.Text = "Sort By: "..SortOrderSearch..""..EFSSearch
-		print(Interface.SearchOptions.SortOrder, Interface.SearchOptions.ExcludeFullServers)
 	end
 	
 	task.spawn(function()
@@ -2606,8 +2604,7 @@ local function WNQTGLC_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLAS
 								elseif Interface.SearchOptions.SortOrder == 2 then
 	
 									SortBtnObj.MouseButton1Down:Connect(function()
-										if SortBtnObj.Name == "HighestPop" then
-											print(Interface.SearchOptions.SortOrder)
+										if SortBtnObj.Name == "LowestPop" then
 											TweenService:Create(SortBtnObj.UIStroke, TweenInfo.new(0.15), {Color = Color3.fromRGB(85, 255, 127)}):Play()
 											TweenService:Create(SortBtnObj, TweenInfo.new(0.15), {TextColor3 = Color3.fromRGB(85, 255, 127)}):Play()
 	
@@ -2948,5 +2945,5 @@ local function WNQTGLC_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLAS
 	Interface.CreateSmallNotif('The kebind to open the menu is <font color="rgb('..Interface.Colours.Green..')">[HOME]</font>.')
 end
 
-coroutine.wrap(STHNDRJ_fake_script)()
-coroutine.wrap(WNQTGLC_fake_script)()
+coroutine.wrap(PCEB_fake_script)()
+coroutine.wrap(KFGCZR_fake_script)()
