@@ -298,7 +298,7 @@ Converted["_ATLASINTERFACE"].ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
 Converted["_ATLASINTERFACE"].ResetOnSpawn = false
 Converted["_ATLASINTERFACE"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Converted["_ATLASINTERFACE"].Name = "ATLASINTERFACE"
-Converted["_ATLASINTERFACE"].Parent = game:GetService("CoreGui")
+Converted["_ATLASINTERFACE"].Parent = game.StarterGui.gui2lua #9
 
 Converted["_Welcome"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Welcome"].BackgroundTransparency = 1
@@ -587,7 +587,9 @@ Converted["_UICorner4"].Parent = Converted["_Patch006"]
 Converted["_ChangeLogTitle"].Font = Enum.Font.Unknown
 Converted["_ChangeLogTitle"].Text = "[Server List & Bug Fix]"
 Converted["_ChangeLogTitle"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_ChangeLogTitle"].TextScaled = true
 Converted["_ChangeLogTitle"].TextSize = 25
+Converted["_ChangeLogTitle"].TextWrapped = true
 Converted["_ChangeLogTitle"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_ChangeLogTitle"].TextYAlignment = Enum.TextYAlignment.Top
 Converted["_ChangeLogTitle"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -603,7 +605,9 @@ Converted["_UIPadding4"].Parent = Converted["_ChangeLogTitle"]
 Converted["_ChangeLogPatch"].Font = Enum.Font.Unknown
 Converted["_ChangeLogPatch"].Text = "Patch#0.0.6"
 Converted["_ChangeLogPatch"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_ChangeLogPatch"].TextScaled = true
 Converted["_ChangeLogPatch"].TextSize = 25
+Converted["_ChangeLogPatch"].TextWrapped = true
 Converted["_ChangeLogPatch"].TextXAlignment = Enum.TextXAlignment.Right
 Converted["_ChangeLogPatch"].TextYAlignment = Enum.TextYAlignment.Top
 Converted["_ChangeLogPatch"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -650,13 +654,15 @@ Converted["_UIPadding6"].Parent = Converted["_Summary"]
 Converted["_UpdatesTitle"].Font = Enum.Font.Unknown
 Converted["_UpdatesTitle"].Text = "[Updates]"
 Converted["_UpdatesTitle"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_UpdatesTitle"].TextScaled = true
 Converted["_UpdatesTitle"].TextSize = 20
+Converted["_UpdatesTitle"].TextWrapped = true
 Converted["_UpdatesTitle"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_UpdatesTitle"].TextYAlignment = Enum.TextYAlignment.Top
 Converted["_UpdatesTitle"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_UpdatesTitle"].BackgroundTransparency = 1
 Converted["_UpdatesTitle"].Position = UDim2.new(0, -5, 0, 115)
-Converted["_UpdatesTitle"].Size = UDim2.new(0, 405, 0, 25)
+Converted["_UpdatesTitle"].Size = UDim2.new(0, 405, 0, 19)
 Converted["_UpdatesTitle"].Name = "UpdatesTitle"
 Converted["_UpdatesTitle"].Parent = Converted["_Patch006"]
 
@@ -788,7 +794,9 @@ Converted["_UICorner9"].Parent = Converted["_Patch003"]
 Converted["_ChangeLogTitle1"].Font = Enum.Font.Unknown
 Converted["_ChangeLogTitle1"].Text = "[Creation Of Settings]"
 Converted["_ChangeLogTitle1"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_ChangeLogTitle1"].TextScaled = true
 Converted["_ChangeLogTitle1"].TextSize = 25
+Converted["_ChangeLogTitle1"].TextWrapped = true
 Converted["_ChangeLogTitle1"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_ChangeLogTitle1"].TextYAlignment = Enum.TextYAlignment.Top
 Converted["_ChangeLogTitle1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -804,7 +812,9 @@ Converted["_UIPadding13"].Parent = Converted["_ChangeLogTitle1"]
 Converted["_ChangeLogPatch1"].Font = Enum.Font.Unknown
 Converted["_ChangeLogPatch1"].Text = "Patch#0.0.3"
 Converted["_ChangeLogPatch1"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_ChangeLogPatch1"].TextScaled = true
 Converted["_ChangeLogPatch1"].TextSize = 25
+Converted["_ChangeLogPatch1"].TextWrapped = true
 Converted["_ChangeLogPatch1"].TextXAlignment = Enum.TextXAlignment.Right
 Converted["_ChangeLogPatch1"].TextYAlignment = Enum.TextYAlignment.Top
 Converted["_ChangeLogPatch1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -851,13 +861,15 @@ Converted["_UIPadding15"].Parent = Converted["_Summary1"]
 Converted["_UpdatesTitle1"].Font = Enum.Font.Unknown
 Converted["_UpdatesTitle1"].Text = "[Updates]"
 Converted["_UpdatesTitle1"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_UpdatesTitle1"].TextScaled = true
 Converted["_UpdatesTitle1"].TextSize = 20
+Converted["_UpdatesTitle1"].TextWrapped = true
 Converted["_UpdatesTitle1"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_UpdatesTitle1"].TextYAlignment = Enum.TextYAlignment.Top
 Converted["_UpdatesTitle1"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_UpdatesTitle1"].BackgroundTransparency = 1
 Converted["_UpdatesTitle1"].Position = UDim2.new(0, -5, 0, 115)
-Converted["_UpdatesTitle1"].Size = UDim2.new(0, 405, 0, 25)
+Converted["_UpdatesTitle1"].Size = UDim2.new(0, 405, 0, 19)
 Converted["_UpdatesTitle1"].Name = "UpdatesTitle"
 Converted["_UpdatesTitle1"].Parent = Converted["_Patch003"]
 
@@ -989,7 +1001,9 @@ Converted["_UICorner14"].Parent = Converted["_Patch002"]
 Converted["_ChangeLogTitle2"].Font = Enum.Font.Unknown
 Converted["_ChangeLogTitle2"].Text = "[Creation Of Interface]"
 Converted["_ChangeLogTitle2"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_ChangeLogTitle2"].TextScaled = true
 Converted["_ChangeLogTitle2"].TextSize = 25
+Converted["_ChangeLogTitle2"].TextWrapped = true
 Converted["_ChangeLogTitle2"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_ChangeLogTitle2"].TextYAlignment = Enum.TextYAlignment.Top
 Converted["_ChangeLogTitle2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1005,7 +1019,9 @@ Converted["_UIPadding22"].Parent = Converted["_ChangeLogTitle2"]
 Converted["_ChangeLogPatch2"].Font = Enum.Font.Unknown
 Converted["_ChangeLogPatch2"].Text = "Patch#0.0.2"
 Converted["_ChangeLogPatch2"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_ChangeLogPatch2"].TextScaled = true
 Converted["_ChangeLogPatch2"].TextSize = 25
+Converted["_ChangeLogPatch2"].TextWrapped = true
 Converted["_ChangeLogPatch2"].TextXAlignment = Enum.TextXAlignment.Right
 Converted["_ChangeLogPatch2"].TextYAlignment = Enum.TextYAlignment.Top
 Converted["_ChangeLogPatch2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1052,13 +1068,15 @@ Converted["_UIPadding24"].Parent = Converted["_Summary2"]
 Converted["_UpdatesTitle2"].Font = Enum.Font.Unknown
 Converted["_UpdatesTitle2"].Text = "[Updates]"
 Converted["_UpdatesTitle2"].TextColor3 = Color3.fromRGB(200.00000327825546, 200.00000327825546, 200.00000327825546)
+Converted["_UpdatesTitle2"].TextScaled = true
 Converted["_UpdatesTitle2"].TextSize = 20
+Converted["_UpdatesTitle2"].TextWrapped = true
 Converted["_UpdatesTitle2"].TextXAlignment = Enum.TextXAlignment.Left
 Converted["_UpdatesTitle2"].TextYAlignment = Enum.TextYAlignment.Top
 Converted["_UpdatesTitle2"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_UpdatesTitle2"].BackgroundTransparency = 1
 Converted["_UpdatesTitle2"].Position = UDim2.new(0, -5, 0, 115)
-Converted["_UpdatesTitle2"].Size = UDim2.new(0, 405, 0, 25)
+Converted["_UpdatesTitle2"].Size = UDim2.new(0, 405, 0, 19)
 Converted["_UpdatesTitle2"].Name = "UpdatesTitle"
 Converted["_UpdatesTitle2"].Parent = Converted["_Patch002"]
 
@@ -2277,7 +2295,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function GRDASOK_fake_script() -- Fake Script: StarterGui.ATLASINTERFACE.Welcome.WelcomeHandler
+local function STHNDRJ_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.Welcome.WelcomeHandler
     local script = Instance.new("LocalScript")
     script.Name = "WelcomeHandler"
     script.Parent = Converted["_Welcome"]
@@ -2303,7 +2321,7 @@ local function GRDASOK_fake_script() -- Fake Script: StarterGui.ATLASINTERFACE.W
 	task.wait(3.5)
 	script.Parent:Destroy()
 end
-local function BQNFVIW_fake_script() -- Fake Script: StarterGui.ATLASINTERFACE.InterfaceController
+local function WNQTGLC_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.InterfaceController
     local script = Instance.new("LocalScript")
     script.Name = "InterfaceController"
     script.Parent = Converted["_ATLASINTERFACE"]
@@ -2930,5 +2948,5 @@ local function BQNFVIW_fake_script() -- Fake Script: StarterGui.ATLASINTERFACE.I
 	Interface.CreateSmallNotif('The kebind to open the menu is <font color="rgb('..Interface.Colours.Green..')">[HOME]</font>.')
 end
 
-coroutine.wrap(GRDASOK_fake_script)()
-coroutine.wrap(BQNFVIW_fake_script)()
+coroutine.wrap(STHNDRJ_fake_script)()
+coroutine.wrap(WNQTGLC_fake_script)()
