@@ -381,6 +381,7 @@ Converted["_InterfaceMenu"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Converted["_InterfaceMenu"].BackgroundTransparency = 0.6499999761581421
 Converted["_InterfaceMenu"].Position = UDim2.new(0.5, 0, 0.5, 0)
 Converted["_InterfaceMenu"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_InterfaceMenu"].Visible = false
 Converted["_InterfaceMenu"].Name = "InterfaceMenu"
 Converted["_InterfaceMenu"].Parent = Converted["_ATLASINTERFACE"]
 
@@ -2294,7 +2295,7 @@ local fake_module_scripts = {}
 
 -- Fake Local Scripts:
 
-local function PCEB_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.Welcome.WelcomeHandler
+local function DRLHI_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.Welcome.WelcomeHandler
     local script = Instance.new("LocalScript")
     script.Name = "WelcomeHandler"
     script.Parent = Converted["_Welcome"]
@@ -2320,7 +2321,7 @@ local function PCEB_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINT
 	task.wait(3.5)
 	script.Parent:Destroy()
 end
-local function KFGCZR_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.InterfaceController
+local function XNGQGCJ_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASINTERFACE.InterfaceController
     local script = Instance.new("LocalScript")
     script.Name = "InterfaceController"
     script.Parent = Converted["_ATLASINTERFACE"]
@@ -2945,5 +2946,5 @@ local function KFGCZR_fake_script() -- Fake Script: StarterGui.gui2lua #9.ATLASI
 	Interface.CreateSmallNotif('The kebind to open the menu is <font color="rgb('..Interface.Colours.Green..')">[HOME]</font>.')
 end
 
-coroutine.wrap(PCEB_fake_script)()
-coroutine.wrap(KFGCZR_fake_script)()
+coroutine.wrap(DRLHI_fake_script)()
+coroutine.wrap(XNGQGCJ_fake_script)()
