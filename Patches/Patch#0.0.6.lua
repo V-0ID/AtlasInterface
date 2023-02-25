@@ -298,7 +298,7 @@ Converted["_ATLASINTERFACE"].ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
 Converted["_ATLASINTERFACE"].ResetOnSpawn = false
 Converted["_ATLASINTERFACE"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Converted["_ATLASINTERFACE"].Name = "ATLASINTERFACE"
-Converted["_ATLASINTERFACE"].Parent = game.StarterGui.gui2lua #9
+Converted["_ATLASINTERFACE"].Parent = game.CoreGui
 
 Converted["_Welcome"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Welcome"].BackgroundTransparency = 1
